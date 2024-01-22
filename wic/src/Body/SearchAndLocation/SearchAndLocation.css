@@ -1,4 +1,5 @@
 .searchAndLocation {
+    width: 80%;
     display: flex;
-    margin-left: 50px;
+    margin: 0 auto;
 }
