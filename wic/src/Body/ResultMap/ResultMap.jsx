@@ -1,7 +1,9 @@
 import { useEffect } from 'react';
+// import dotenv from "dotenv";
 import './ResultMap.css';
 
-const {kakao} = window;
+// const {kakao} = process.env.REACT_APP_KAKAO_MAP_API_KEY;
+const kakao = process.env.REACT_APP_KAKAO_MAP_API_KEY;
 
 function ResultMap() {
 
