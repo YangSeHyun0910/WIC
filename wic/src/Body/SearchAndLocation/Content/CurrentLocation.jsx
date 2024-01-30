@@ -4,7 +4,7 @@ function CurrentLocation() {
 
     return(
         <div className='currentLocation'>
-            현재위치
+            현재 위치
         </div>
     )
 }
