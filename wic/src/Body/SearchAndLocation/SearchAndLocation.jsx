@@ -5,11 +5,15 @@ import StoreSearch from './Content/StoreSearch';
 
 function SearchAndLocation() {
 
-    return(
-        <div className='searchAndLocation'>
-            <AreaSearch />
-            <StoreSearch />
-            <CurrentLocation />
+    return (
+        <div>
+            <div className='searchAndLocation'>
+                <AreaSearch />
+                <CurrentLocation />
+            </div>
+            <div className='store'>
+                <StoreSearch />
+            </div>
         </div>
     )
 }

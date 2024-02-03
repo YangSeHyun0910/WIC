@@ -1,4 +1,6 @@
 .areaSearchBox {
     width: 400px;
-    height: 30px;
+    height: 100%;
+    margin-left: 5px;
+    box-sizing: border-box;
 }

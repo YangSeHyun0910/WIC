@@ -2,8 +2,10 @@ import './AreaSearch.css';
 
 function AreaSearch() {
 
-    return(
-        <input className="areaSearchBox" placeholder='위치 검색창' />
+    return (
+        <>장소 검색 : 
+            <input className="areaSearchBox" placeholder='장소검색' />
+        </>
     )
 }
 export default AreaSearch;

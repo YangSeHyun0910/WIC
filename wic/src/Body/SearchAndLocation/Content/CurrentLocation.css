@@ -1,4 +1,20 @@
-.currentLocation {
+.location {
+    display: flex;
+    height: 40px;
+    align-self: center;
+
+}
+
+.currentLocationIcon {
     height: 100%;
-    line-height: 100%;
+    margin-left: 10px;
+}
+
+.currentLocation {
+    /* height, line-height 100%가 전부 안먹혀서 부득이하게 상수 40px 부여 */
+    /* height: 100%; */
+    /* line-height: 100%; */
+    line-height: 40px;
+    font-size: 20px;
+    margin-left: 5px;
 }

@@ -2,16 +2,16 @@ import { useEffect } from 'react';
 // import dotenv from "dotenv";
 import './ResultMap.css';
 
+const {kakao} = window;
 // const {kakao} = process.env.REACT_APP_KAKAO_MAP_API_KEY;
-const kakao = process.env.REACT_APP_KAKAO_MAP_API_KEY;
+// const kakao = process.env.REACT_APP_KAKAO_MAP_API_KEY;
 
 function ResultMap() {
 
     useEffect(() => {
-
         const container = document.getElementById('map');         //지도를 담을 영역의 DOM 레퍼런스
         const options = {                                         //지도를 생성할 때 필요한 기본 옵션
-            center: new kakao.maps.LatLng(33.450701, 126.570667), //지도의 중심좌표.
+            center: new kakao.maps.LatLng(37.237964, 127.190294), //지도의 중심좌표. 명지대역
             level: 3                                              //지도의 레벨(확대, 축소 정도)
         };
 
