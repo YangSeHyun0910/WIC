@@ -1,6 +1,9 @@
+import { useState } from 'react';
 import './AreaSearch.css';
 
 function AreaSearch() {
+
+    const [search, setSearch] = useState('');
 
     return (
         <>장소 검색 : 
